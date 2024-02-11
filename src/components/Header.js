@@ -57,6 +57,11 @@ const MenuItem = styled.button`
   margin-left: 15px;
   margin-right: 15px;
   user-select: none;
+  @media (max-width: 768px) {
+    /* Styles specific to screens with a max-width of 768px */
+    display: none;
+    /* Other styles */
+  }
 `;
 
 const DarkMenuItem = styled.button`
