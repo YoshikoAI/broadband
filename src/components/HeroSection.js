@@ -28,6 +28,12 @@ const Container2 = styled.div`
   justify-content: center;
   position: relative;
   z-index: 10;
+  @media (max-width: 600px) {
+    /* Styles specific to screens with a max-width of 768px */
+    padding-left: 20px;
+    padding-right: 20px;
+    /* Other styles */
+  }
 `;
 
 const PageTitle = styled.p`
